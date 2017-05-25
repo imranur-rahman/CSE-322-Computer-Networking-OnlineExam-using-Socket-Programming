@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+<AnchorPane fx:id="l" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="486.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.ClientLoginController">
+   <children>
+      <Text layoutX="112.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IP Address" wrappingWidth="63.705078125" />
+      <Text layoutX="113.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Port Number" wrappingWidth="74.705078125" />
+      <Text layoutX="112.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student ID" wrappingWidth="63.705078125" />
+      <Button fx:id="login" layoutX="276.0" layoutY="227.0" mnemonicParsing="false" text="Login" />
+      <TextField fx:id="ipAddress" layoutX="225.0" layoutY="68.0" />
+      <TextField fx:id="portNumber" layoutX="225.0" layoutY="111.0" />
+      <TextField fx:id="studentID" layoutX="225.0" layoutY="151.0" />
+      <Label fx:id="loginDenied" layoutX="231.0" layoutY="194.0" text="Login Denied!!! Try Again." />
+   </children>
+</AnchorPane>

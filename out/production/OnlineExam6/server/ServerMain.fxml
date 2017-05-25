@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="590.0" prefWidth="626.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="server.ServerMainController">
+   <children>
+      <Text layoutX="20.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exam Start Time" wrappingWidth="145.13671875" />
+      <Button fx:id="submit" layoutX="394.0" layoutY="397.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="88.0" text="Apply" />
+      <Text layoutX="20.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Duration" wrappingWidth="145.13671875" />
+      <Text layoutX="20.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Warning Time" wrappingWidth="145.13671875" />
+      <Text layoutX="20.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rules &amp; Regulations" wrappingWidth="145.13671875" />
+      <Text layoutX="20.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name of Question" wrappingWidth="145.13671875" />
+      <Text layoutX="20.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Location of Question" wrappingWidth="145.13671875" />
+      <Text layoutX="20.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Eligible Students" wrappingWidth="145.13671875" />
+      <Text layoutX="20.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Durarion for Sending Backup File" wrappingWidth="145.13671875" />
+      <Text fx:id="correctionsLabel" layoutX="20.0" layoutY="480.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Corrections" wrappingWidth="145.13671875" />
+      <TextField fx:id="duration" layoutX="289.0" layoutY="73.0" prefHeight="25.0" prefWidth="149.0" />
+      <TextField fx:id="warningTime" layoutX="289.0" layoutY="114.0" />
+      <TextField fx:id="durationForSendingBackupFiles" layoutX="289.0" layoutY="341.0" />
+      <TextField fx:id="rulesAndRegulations" layoutX="289.0" layoutY="159.0" prefHeight="25.0" prefWidth="300.0" />
+      <TextField fx:id="nameOfQuestion" layoutX="288.0" layoutY="201.0" prefHeight="25.0" prefWidth="300.0" />
+      <TextField fx:id="eligibleStudents" layoutX="288.0" layoutY="297.0" prefHeight="25.0" prefWidth="300.0" />
+      <TextField fx:id="corrections" layoutX="289.0" layoutY="463.0" prefHeight="25.0" prefWidth="300.0" />
+      <ChoiceBox layoutX="439.0" layoutY="341.0" prefWidth="150.0" />
+      <ChoiceBox layoutX="439.0" layoutY="73.0" prefWidth="150.0" />
+      <ChoiceBox layoutX="439.0" layoutY="114.0" prefWidth="150.0" />
+      <Button fx:id="chooseLocationOfFile" layoutX="517.0" layoutY="248.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" text="Choose" />
+      <TextArea fx:id="locationOfFile" layoutX="288.0" layoutY="248.0" prefHeight="25.0" prefWidth="228.0" />
+      <TextField fx:id="examStartTime" layoutX="289.0" layoutY="31.0" prefHeight="25.0" prefWidth="300.0" />
+      <Button fx:id="sendCorrections" layoutX="385.0" layoutY="515.0" mnemonicParsing="false" text="Send Corrections" />
+   </children>
+</AnchorPane>
